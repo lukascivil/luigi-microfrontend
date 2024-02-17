@@ -1768,6 +1768,11 @@
   resolved "https://registry.yarnpkg.com/@luigi-project/client/-/client-2.9.0.tgz#fe46767de2d20ca37dbfd4144b86db7946c8f743"
   integrity sha512-LqXMWZ9rdvHv7JRBaqWnCde5iEeuhC8RFIru98Bum90vS6DW8HZc+ucohYNhvgVWmmK1vBxvmRckvPOo24OCfw==
 
+"@luigi-project/container@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@luigi-project/container/-/container-1.1.0.tgz#ca98339b22e9178dcee6a9820a6a7cde5e59ac8f"
+  integrity sha512-mGI7AMwnw4Alg270kWavKji8UmAUCQ1YbQcstp4Nf6alvPfCbIjrQXmvu+UMl/Ui980Auo+Bk/XjsqIzwtztZQ==
+
 "@luigi-project/core@^2.9.0":
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/@luigi-project/core/-/core-2.9.0.tgz#e87996fe7b488642e17289637aca60ad39148089"

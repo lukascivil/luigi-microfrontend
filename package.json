@@ -2,8 +2,17 @@
   "name": "luigitest",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "buildConfig": "webpack --config webpack.config.js",
+    "start:vite": "vite serve",
+    "start:vite:remote": "vite serve --config remote/vite.config.js",
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js"
+  },
   "dependencies": {
     "@luigi-project/client": "^2.9.0",
+    "@luigi-project/container": "^1.1.0",
     "@luigi-project/core": "^2.9.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@sap-theming/theming-base-content": "^11.12.0",
@@ -58,14 +67,6 @@
     "webpack-dev-server": "^4.6.0",
     "webpack-manifest-plugin": "^4.0.2",
     "workbox-webpack-plugin": "^6.4.1"
-  },
-  "scripts": {
-    "buildConfig": "webpack --config webpack.config.js",
-    "start:vite": "vite serve",
-    "start:vite:remote": "vite serve --config remote/vite.config.js",
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
   },
   "eslintConfig": {
     "extends": [
