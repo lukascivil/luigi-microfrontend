@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start:vite": "vite serve --config vite.config.js"
+    "start:vite": "vite serve"
   },
   "dependencies": {
     "@luigi-project/client": "^2.9.0",
