@@ -1,44 +1,3 @@
-// Luigi.setConfig({
-//   navigation: {
-//     nodes: () => [
-//       {
-//         pathSegment: "home",
-//         label: "Home",
-//         icon: "home",
-//         viewUrl: "/sampleapp.html#/home",
-//         children: [
-//           {
-//             pathSegment: "sample1",
-//             label: "First",
-//             icon: "nutrition-activity",
-//             viewUrl: "/sampleapp.html#/sample1",
-//           },
-//           {
-//             pathSegment: "sample2",
-//             label: "Second",
-//             icon: "paper-plane",
-//             viewUrl: "/sampleapp.html#/sample2",
-//           },
-//           {
-//             category: { label: "Links", icon: "cloud" },
-//             label: "Luigi Project",
-//             externalLink: { url: "https://luigi-project.io/" },
-//           },
-//           {
-//             category: "Links",
-//             label: "React.js",
-//             externalLink: { url: "https://reactjs.org/" },
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   settings: {
-//     header: { title: "Luigi React App", logo: "/logo.png" },
-//     responsiveNavigation: "simpleMobileOnly",
-//   },
-// });
-
 Luigi.setConfig({
   navigation: {
     contextSwitcher: false,
@@ -47,33 +6,36 @@ Luigi.setConfig({
         pathSegment: "home",
         label: "Home",
         icon: "home",
-        viewUrl: "/views/home.html",
+        viewUrl: "/views/host-home.html",
         children: [
           {
             pathSegment: "remote",
             label: "remote",
             icon: "nutrition-activity",
-            viewUrl: "http://localhost:3002/home/sample2",
+            viewUrl: "http://localhost:3002/home",
+            context: {
+              currentProject: ":projectId",
+            },
             loadingIndicator: {
-              enabled: false,
+              enabled: true,
             },
           },
           {
             pathSegment: "home",
             label: "Home",
             icon: "nutrition-activity",
-            viewUrl: "/views/home.html",
+            viewUrl: "/views/host-home.html",
             loadingIndicator: {
-              enabled: false,
+              enabled: true,
             },
           },
           {
             pathSegment: "sample1",
-            label: "First",
+            label: "Sample1",
             icon: "nutrition-activity",
             viewUrl: "/views/sample1.html",
             loadingIndicator: {
-              enabled: false,
+              enabled: true,
             },
           },
         ],
@@ -81,11 +43,6 @@ Luigi.setConfig({
     ],
   },
   routing: {
-    /**
-     * Development:
-     * For path routing, set to false
-     * For hash routing, set to true
-     */
     useHashRouting: true,
   },
   settings: {

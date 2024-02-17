@@ -5,6 +5,7 @@ import {
   removeContextUpdateListener,
   removeInitListener,
 } from "@luigi-project/client";
+import "@luigi-project/container";
 
 const Home = () => {
   const [message, setMessage] = useState("");
@@ -14,13 +15,13 @@ const Home = () => {
   useEffect(() => {
     setInitListener(
       addInitListener((initialContext) => {
-        setMessage("Luigi Client initialized.");
+        setMessage("home.tsx Luigi Client initialized.");
       })
     );
 
     setContextUpdateListener(
       addContextUpdateListener((updatedContext) => {
-        setMessage("Luigi Client updated.");
+        setMessage("home.tsx Luigi Client updated.");
       })
     );
 
@@ -32,8 +33,19 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Remote Home</h1>
       <div>{message}</div>
+      <luigi-container
+        viewURL="http://localhost:3000/views/cafe.js"
+        // viewURL="http://localhost:3000/views/sample1.html"
+        webcomponent="false"
+        label="my label"
+        context='{"label": "Calendar"}'
+      ></luigi-container>
+      {/* <luigi-compound-container
+        context='{"label": "Dashboard"}'
+        compoundConfig={{}}
+      ></luigi-compound-container> */}
     </div>
   );
 };

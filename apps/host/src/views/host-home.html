@@ -10,17 +10,17 @@
   </head>
   <body>
     <div>
-      <h1>Home</h1>
+      <h1>Host Home</h1>
     </div>
     <div class="fd-panel" id="init-text"></div>
     <script type="text/javascript">
       LuigiClient.addContextUpdateListener((updatedContext) => {
         document.getElementById("init-text").textContent =
-          "Luigi Client updated.";
+          "host-home.html Luigi Client updated.";
       });
       LuigiClient.addInitListener((initialContext) => {
         document.getElementById("init-text").textContent =
-          "Luigi Client initialized.";
+          "host-home.html Luigi Client initialized.";
       });
     </script>
   </body>
