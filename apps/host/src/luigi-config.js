@@ -4,13 +4,13 @@ Luigi.setConfig({
     nodes: () => [
       {
         pathSegment: "home",
-        label: "Home",
+        label: "Host Home",
         icon: "home",
         viewUrl: "/views/host-home.html",
         children: [
           {
             pathSegment: "remote",
-            label: "remote",
+            label: "Remote",
             icon: "nutrition-activity",
             viewUrl: "http://localhost:3002/home",
             context: {
@@ -22,7 +22,7 @@ Luigi.setConfig({
           },
           {
             pathSegment: "home",
-            label: "Home",
+            label: "Host Home",
             icon: "nutrition-activity",
             viewUrl: "/views/host-home.html",
             loadingIndicator: {
@@ -31,11 +31,11 @@ Luigi.setConfig({
           },
           {
             pathSegment: "sample1",
-            label: "Sample1",
+            label: "Host Sample1",
             icon: "nutrition-activity",
-            viewUrl: "/views/sample1.html",
+            viewUrl: "/views/host-sample1.html",
             loadingIndicator: {
-              enabled: true,
+              enabled: false,
             },
           },
         ],
