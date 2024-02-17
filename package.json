@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start:vite": "yarn workspaces run start:vite"
+    "start:vite": "yarn workspaces run 'start:vite'"
   },
   "dependencies": {
     "@luigi-project/client": "^2.9.0",
