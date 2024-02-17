@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
+import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./views/home";
 import Sample1 from "./views/sample1";
@@ -13,6 +13,8 @@ class App extends Component {
     addInitListener(() => {
       console.log("Luigi Client initialized.");
     });
+
+    console.log("Initialized");
   }
 
   render() {
@@ -26,4 +28,8 @@ class App extends Component {
   }
 }
 
-render(<App />, document.getElementById("root"));
+createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
