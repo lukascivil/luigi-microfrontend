@@ -19,7 +19,7 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter basename={`remote#`}>
+      <BrowserRouter basename={`remote`}>
         <Route path="/home" component={Home} />
         <Route path="/sample1" component={Sample1} />
         <Route path="/sample2" component={Sample2} />

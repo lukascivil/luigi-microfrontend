@@ -10,7 +10,7 @@ Luigi.setConfig({
         children: [
           {
             pathSegment: "remote",
-            label: "Remote",
+            label: "Remote Home",
             icon: "nutrition-activity",
             viewUrl: "http://localhost:3002/home",
             context: {

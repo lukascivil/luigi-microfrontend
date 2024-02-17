@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from "react";
+import { useState, useEffect, ReactElement } from "react";
 import {
   addInitListener,
   addContextUpdateListener,
@@ -15,13 +15,13 @@ const Home = () => {
   useEffect(() => {
     setInitListener(
       addInitListener((initialContext) => {
-        setMessage("home.tsx Luigi Client initialized.");
+        setMessage("remote-home.tsx Luigi Client initialized.");
       })
     );
 
     setContextUpdateListener(
       addContextUpdateListener((updatedContext) => {
-        setMessage("home.tsx Luigi Client updated.");
+        setMessage("remote-home.tsx Luigi Client updated.");
       })
     );
 
