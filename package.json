@@ -3,11 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start:vite": "vite serve",
-    "start:vite:remote": "vite serve --config remote/vite.config.js",
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "start:vite": "yarn workspaces foreach start:vite"
   },
   "dependencies": {
     "@luigi-project/client": "^2.9.0",
