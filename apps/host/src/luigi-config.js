@@ -9,26 +9,8 @@ Luigi.setConfig({
         viewUrl: "/views/host-home.html",
         children: [
           {
-            pathSegment: "remote",
-            label: "Remote Home",
-            icon: "nutrition-activity",
-            viewUrl: "http://localhost:3002/home",
-            context: {
-              currentProject: ":projectId",
-            },
-            loadingIndicator: {
-              enabled: true,
-            },
-            children: [
-              {
-                link: "/sample1",
-                label: "This takes you to [YOUR.WEBSITE]/TopNav1/internalLink",
-              },
-            ],
-          },
-          {
             pathSegment: "home",
-            label: "Host Home",
+            label: "Host 3000",
             icon: "nutrition-activity",
             viewUrl: "/views/host-home.html",
             loadingIndicator: {
@@ -36,13 +18,22 @@ Luigi.setConfig({
             },
           },
           {
-            pathSegment: "home2",
-            label: "Host Home",
+            pathSegment: "remote2",
+            label: "Remote 3003",
+            icon: "home",
+            viewUrl: "http://localhost:3003",
+            loadingIndicator: {
+              enabled: false,
+            },
+          },
+          {
+            pathSegment: "remote",
+            label: "Remote 3002",
             icon: "home",
             viewUrl: "http://localhost:3002/remoteMFE/home",
             children: [
               {
-                pathSegment: "home2",
+                pathSegment: "remote",
                 label: "Remote Home",
                 icon: "paper-plane",
                 viewUrl: "http://localhost:3002/remoteMFE/home",
