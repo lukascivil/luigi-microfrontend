@@ -59,6 +59,11 @@ Luigi.setConfig({
                   enabled: false,
                 },
               },
+              {
+                label: "Back",
+                link: "/",
+                icon: "nav-back",
+              },
             ],
           },
         ],
