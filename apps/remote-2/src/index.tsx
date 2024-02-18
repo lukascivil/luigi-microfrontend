@@ -1,17 +1,18 @@
 import { luigiClientInit, addInitListener } from "@luigi-project/client";
 import { useEffect } from "react";
 
-export default function MyMicroFrontend() {
-  const element = document.createElement("div");
-  element.innerHTML = `<h1>Hello from my micro frontend!</h1>`;
-
+const Remote2 = () => {
   useEffect(() => {
     luigiClientInit();
+
+    console.log("Remote2 started");
 
     addInitListener((initialContext) => {
       console.log("initialContext", initialContext);
     });
   }, []);
 
-  return element;
-}
+  return <div>Remote2 http://localhost:3003/</div>;
+};
+
+export default Remote2;
