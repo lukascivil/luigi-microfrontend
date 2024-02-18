@@ -35,8 +35,14 @@ const Home = () => {
     <div style={{ borderColor: "blue", borderStyle: "dashed" }}>
       <h1>Remote Home http://localhost:3002/</h1>
       <div>{message}</div>
-      <div style={{ borderColor: "red", borderStyle: "dashed" }}>
-        luigi-container
+      <div
+        style={{
+          borderColor: "red",
+          borderStyle: "dashed",
+          marginTop: "16px",
+        }}
+      >
+        luigi-container web component example
         <luigi-container
           viewURL="http://localhost:3002/wb-example.js"
           webcomponent="false"
