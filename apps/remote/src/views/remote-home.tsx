@@ -38,19 +38,13 @@ const Home = () => {
       <div style={{ borderColor: "red", borderStyle: "dashed" }}>
         luigi-container
         <luigi-container
-          // viewURL="http://localhost:3003/remote-2.js"
-          viewURL="https://micro-frontends.org/"
-          // viewURL="host-sample1.html"
+          viewURL="http://localhost:3002/wb-example.js"
           webcomponent="false"
           label="my label"
-          deferInit="true"
           context='{"label": "Calendar"}'
+          deferInit="true"
         ></luigi-container>
       </div>
-      {/* <luigi-compound-container
-        context='{"label": "Dashboard"}'
-        compoundConfig={{}}
-      ></luigi-compound-container> */}
     </div>
   );
 };
