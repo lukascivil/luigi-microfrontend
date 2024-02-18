@@ -19,6 +19,12 @@ Luigi.setConfig({
             loadingIndicator: {
               enabled: true,
             },
+            children: [
+              {
+                link: "/sample1",
+                label: "This takes you to [YOUR.WEBSITE]/TopNav1/internalLink",
+              },
+            ],
           },
           {
             pathSegment: "home",
@@ -30,13 +36,39 @@ Luigi.setConfig({
             },
           },
           {
-            pathSegment: "sample1",
-            label: "Host Sample1",
-            icon: "nutrition-activity",
-            viewUrl: "/views/host-sample1.html",
-            loadingIndicator: {
-              enabled: false,
-            },
+            pathSegment: "home2",
+            label: "Host Home",
+            icon: "home",
+            viewUrl: "http://localhost:3002/remoteMFE/home",
+            children: [
+              {
+                pathSegment: "home2",
+                label: "Remote Home",
+                icon: "paper-plane",
+                viewUrl: "http://localhost:3002/remoteMFE/home",
+                loadingIndicator: {
+                  enabled: false,
+                },
+              },
+              {
+                pathSegment: "sample1",
+                label: "Remote Sample1",
+                icon: "paper-plane",
+                viewUrl: "http://localhost:3002/remoteMFE/sample1",
+                loadingIndicator: {
+                  enabled: false,
+                },
+              },
+              {
+                pathSegment: "sample2",
+                label: "Remote Sample2",
+                icon: "paper-plane",
+                viewUrl: "http://localhost:3002/remoteMFE/sample2",
+                loadingIndicator: {
+                  enabled: false,
+                },
+              },
+            ],
           },
         ],
       },

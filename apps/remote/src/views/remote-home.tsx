@@ -32,16 +32,21 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Remote Home</h1>
+    <div style={{ borderColor: "blue", borderStyle: "dashed" }}>
+      <h1>Remote Home http://localhost:3002/</h1>
       <div>{message}</div>
-      <luigi-container
-        viewURL="http://localhost:3000/views/cafe.js"
-        // viewURL="http://localhost:3000/views/sample1.html"
-        webcomponent="false"
-        label="my label"
-        context='{"label": "Calendar"}'
-      ></luigi-container>
+      <div style={{ borderColor: "red", borderStyle: "dashed" }}>
+        luigi-container
+        <luigi-container
+          // viewURL="http://localhost:3003/remote-2.js"
+          viewURL="https://micro-frontends.org/"
+          // viewURL="host-sample1.html"
+          webcomponent="false"
+          label="my label"
+          deferInit="true"
+          context='{"label": "Calendar"}'
+        ></luigi-container>
+      </div>
       {/* <luigi-compound-container
         context='{"label": "Dashboard"}'
         compoundConfig={{}}
