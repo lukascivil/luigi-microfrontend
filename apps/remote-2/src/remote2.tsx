@@ -32,7 +32,7 @@ const Remote2 = () => {
         Remote-react-admin http://localhost:3004/
         <luigi-container
           data-test-id="iframe-based-container-test"
-          viewURL="http://localhost:3004/#/posts"
+          viewURL="http://localhost:3004"
           context='{"title": "Projects", "content":" "}'
         ></luigi-container>
       </div>
