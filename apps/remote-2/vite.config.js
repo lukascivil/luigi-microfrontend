@@ -12,10 +12,6 @@ export default defineConfig({
   },
   plugins: [react(), viteTsconfigPaths()],
   build: {
-    lib: {
-      entry: resolve(__dirname, "src/index.tsx"),
-      formats: ["es"],
-    },
-    outDir: "dist",
+    outDir: "./dist",
   },
 });
