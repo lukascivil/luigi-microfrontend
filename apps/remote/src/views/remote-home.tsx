@@ -44,7 +44,7 @@ const Home = () => {
       >
         luigi-container web component example
         <luigi-container
-          viewURL="http://localhost:3002/wb-example.js"
+          viewURL="http://localhost:3002/wc-example.js"
           webcomponent="false"
           label="my label"
           context='{"label": "Calendar"}'
