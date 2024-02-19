@@ -1,12 +1,22 @@
-import { luigiClientInit, addInitListener } from "@luigi-project/client";
-import { useEffect } from "react";
+import {
+  luigiClientInit,
+  addInitListener,
+  addCustomMessageListener,
+} from "@luigi-project/client";
+import { useEffect, useState } from "react";
 import "@luigi-project/container";
 
 const Remote2 = () => {
+  const [luigiMessage, setLuigiMessage] = useState("");
+
   useEffect(() => {
     luigiClientInit();
 
     console.log("Remote2 started");
+
+    addCustomMessageListener("remote-react-admin", (message) => {
+      setLuigiMessage(JSON.stringify(message));
+    });
 
     addInitListener((initialContext) => {
       console.log("initialContext", initialContext);
@@ -21,7 +31,8 @@ const Remote2 = () => {
         marginTop: "16px",
       }}
     >
-      Remote2 http://localhost:3003/
+      Remote2 http://localhost:3003/ <br />
+      Remote-react-admin message: {luigiMessage}
       <div
         style={{
           borderColor: "blue",
