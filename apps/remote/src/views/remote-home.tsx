@@ -42,7 +42,7 @@ const Home = () => {
           marginTop: "16px",
         }}
       >
-        luigi-container web component example
+        luigi-container wc-example.js web component example
         <luigi-container
           viewURL="http://localhost:3002/wc-example.js"
           webcomponent="false"
@@ -58,6 +58,7 @@ const Home = () => {
           marginTop: "16px",
         }}
       >
+        luigi-container microfrontend.html
         <luigi-container
           data-test-id="iframe-based-container-test"
           viewURL="http://localhost:3002/microfrontend.html"
