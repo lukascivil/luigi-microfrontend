@@ -51,6 +51,19 @@ const Home = () => {
           deferInit="true"
         ></luigi-container>
       </div>
+      <div
+        style={{
+          borderColor: "green",
+          borderStyle: "dashed",
+          marginTop: "16px",
+        }}
+      >
+        <luigi-container
+          data-test-id="iframe-based-container-test"
+          viewURL="http://localhost:3002/microfrontend.html"
+          context='{"title": "Projects", "content":" "}'
+        ></luigi-container>
+      </div>
     </div>
   );
 };
