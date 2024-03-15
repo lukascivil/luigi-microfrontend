@@ -53,7 +53,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.1.0, @babel/core@npm:^7.12.3, @babel/core@npm:^7.16.0, @babel/core@npm:^7.19.6, @babel/core@npm:^7.23.5, @babel/core@npm:^7.23.9, @babel/core@npm:^7.7.2, @babel/core@npm:^7.8.0":
+"@babel/core@npm:^7.1.0, @babel/core@npm:^7.12.3, @babel/core@npm:^7.16.0, @babel/core@npm:^7.23.5, @babel/core@npm:^7.23.9, @babel/core@npm:^7.7.2, @babel/core@npm:^7.8.0":
   version: 7.23.9
   resolution: "@babel/core@npm:7.23.9"
   dependencies:
@@ -1235,7 +1235,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx-development@npm:^7.18.6, @babel/plugin-transform-react-jsx-development@npm:^7.22.5":
+"@babel/plugin-transform-react-jsx-development@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/plugin-transform-react-jsx-development@npm:7.22.5"
   dependencies:
@@ -1246,7 +1246,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx-self@npm:^7.18.6, @babel/plugin-transform-react-jsx-self@npm:^7.23.3":
+"@babel/plugin-transform-react-jsx-self@npm:^7.23.3":
   version: 7.23.3
   resolution: "@babel/plugin-transform-react-jsx-self@npm:7.23.3"
   dependencies:
@@ -1257,7 +1257,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx-source@npm:^7.19.6, @babel/plugin-transform-react-jsx-source@npm:^7.23.3":
+"@babel/plugin-transform-react-jsx-source@npm:^7.23.3":
   version: 7.23.3
   resolution: "@babel/plugin-transform-react-jsx-source@npm:7.23.3"
   dependencies:
@@ -1268,7 +1268,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx@npm:^7.19.0, @babel/plugin-transform-react-jsx@npm:^7.22.15, @babel/plugin-transform-react-jsx@npm:^7.22.5":
+"@babel/plugin-transform-react-jsx@npm:^7.22.15, @babel/plugin-transform-react-jsx@npm:^7.22.5":
   version: 7.23.4
   resolution: "@babel/plugin-transform-react-jsx@npm:7.23.4"
   dependencies:
@@ -2627,10 +2627,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@luigi-project/container@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@luigi-project/container@npm:1.1.0"
-  checksum: 10c0/3c6adc4101d37c61362eb5405fdaf57d03372b0aeb3d36df998c9f623bc1361a06c131b8ac30d07e2f496612c52498cce923a8be167802fc11aeb9471f158b40
+"@luigi-project/container@npm:^1.2.0-rc1":
+  version: 1.2.0-rc1
+  resolution: "@luigi-project/container@npm:1.2.0-rc1"
+  checksum: 10c0/ab978914e4f053c6533c61f3d380c0b191da9c1298f204c5dcbd99b7ae65deb18bd9c3d6f2ebbbc356a2c6cdceba2ee3dd5eaaa81008205bd29b790d67263704
   languageName: node
   linkType: hard
 
@@ -3869,23 +3869,6 @@ __metadata:
   version: 1.2.0
   resolution: "@ungap/structured-clone@npm:1.2.0"
   checksum: 10c0/8209c937cb39119f44eb63cf90c0b73e7c754209a6411c707be08e50e29ee81356dca1a848a405c8bdeebfe2f5e4f831ad310ae1689eeef65e7445c090c6657d
-  languageName: node
-  linkType: hard
-
-"@vitejs/plugin-react@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@vitejs/plugin-react@npm:2.2.0"
-  dependencies:
-    "@babel/core": "npm:^7.19.6"
-    "@babel/plugin-transform-react-jsx": "npm:^7.19.0"
-    "@babel/plugin-transform-react-jsx-development": "npm:^7.18.6"
-    "@babel/plugin-transform-react-jsx-self": "npm:^7.18.6"
-    "@babel/plugin-transform-react-jsx-source": "npm:^7.19.6"
-    magic-string: "npm:^0.26.7"
-    react-refresh: "npm:^0.14.0"
-  peerDependencies:
-    vite: ^3.0.0
-  checksum: 10c0/85fe5c740fbe8aa5dd4c3516a02a937dff0e2b0858cfa7cf8a69b998b7d05e08c296a087fde66f9171367f5c9d10d6e4bc026df1fa1e2ec528f49e7eaabeeae1
   languageName: node
   linkType: hard
 
@@ -7024,7 +7007,7 @@ __metadata:
     "@babel/core": "npm:^7.23.9"
     "@babel/preset-env": "npm:^7.23.9"
     "@luigi-project/client": "npm:^2.9.0"
-    "@luigi-project/container": "npm:^1.1.0"
+    "@luigi-project/container": "npm:^1.2.0-rc1"
     "@luigi-project/core": "npm:^2.9.0"
     "@sap-theming/theming-base-content": "npm:^11.12.0"
     "@testing-library/jest-dom": "npm:^5.17.0"
@@ -7070,9 +7053,9 @@ __metadata:
     source-map-loader: "npm:^3.0.0"
     style-loader: "npm:^3.3.1"
     tailwindcss: "npm:^3.0.2"
-    vite: "npm:^5.1.3"
+    vite: "npm:^5.1.6"
     vite-plugin-simple-html: "npm:^0.1.2"
-    vite-tsconfig-paths: "npm:^4.3.1"
+    vite-tsconfig-paths: "npm:^4.3.2"
     web-vitals: "npm:^2.1.4"
   languageName: unknown
   linkType: soft
@@ -8827,7 +8810,7 @@ __metadata:
     "@babel/core": "npm:^7.23.9"
     "@babel/preset-env": "npm:^7.23.9"
     "@luigi-project/client": "npm:^2.9.0"
-    "@luigi-project/container": "npm:^1.1.0"
+    "@luigi-project/container": "npm:^1.2.0-rc1"
     "@luigi-project/core": "npm:^2.9.0"
     "@sap-theming/theming-base-content": "npm:^11.12.0"
     "@testing-library/jest-dom": "npm:^5.17.0"
@@ -8875,9 +8858,9 @@ __metadata:
     source-map-loader: "npm:^3.0.0"
     style-loader: "npm:^3.3.1"
     tailwindcss: "npm:^3.0.2"
-    vite: "npm:^5.1.3"
+    vite: "npm:^5.1.6"
     vite-plugin-simple-html: "npm:^0.1.2"
-    vite-tsconfig-paths: "npm:^4.3.1"
+    vite-tsconfig-paths: "npm:^4.3.2"
     web-vitals: "npm:^2.1.4"
   languageName: unknown
   linkType: soft
@@ -8888,15 +8871,6 @@ __metadata:
   bin:
     lz-string: bin/bin.js
   checksum: 10c0/36128e4de34791838abe979b19927c26e67201ca5acf00880377af7d765b38d1c60847e01c5ec61b1a260c48029084ab3893a3925fd6e48a04011364b089991b
-  languageName: node
-  linkType: hard
-
-"magic-string@npm:^0.26.7":
-  version: 0.26.7
-  resolution: "magic-string@npm:0.26.7"
-  dependencies:
-    sourcemap-codec: "npm:^1.4.8"
-  checksum: 10c0/950035b344fe2a8163668980bc4a215a0b225086e6e22100fd947e7647053c6ba6b4f11a04de83a97a276526ccb602ef53b173725dbb1971fb146cff5a5e14f6
   languageName: node
   linkType: hard
 
@@ -10691,9 +10665,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ra-core@npm:^4.16.11":
-  version: 4.16.11
-  resolution: "ra-core@npm:4.16.11"
+"ra-core@npm:^4.16.12":
+  version: 4.16.12
+  resolution: "ra-core@npm:4.16.12"
   dependencies:
     clsx: "npm:^1.1.1"
     date-fns: "npm:^2.19.0"
@@ -10712,34 +10686,34 @@ __metadata:
     react-hook-form: ^7.43.9
     react-router: ^6.1.0
     react-router-dom: ^6.1.0
-  checksum: 10c0/b36187ac111ae3b5033d27501079e79d21872e684715e6f6c1a4e76bde3429b0ec5f405ba52ac2e98d70ad4fc11866c0f7374084c753b48b0c5a1986b3f279ff
+  checksum: 10c0/f1c017a99a149ec6a803b2f574094dc9e35271e1b0b6239ff7dee924d66fc604ae823207737fa560067d7ece0f3e3969e1ac1231cb7f5aae24c2d94a438a25e2
   languageName: node
   linkType: hard
 
-"ra-data-fakerest@npm:^4.16.11":
-  version: 4.16.11
-  resolution: "ra-data-fakerest@npm:4.16.11"
+"ra-data-fakerest@npm:^4.16.12":
+  version: 4.16.12
+  resolution: "ra-data-fakerest@npm:4.16.12"
   dependencies:
     fakerest: "npm:^3.0.0"
   peerDependencies:
     ra-core: ^4.0.0
-  checksum: 10c0/d655e0ebaba2460acc0d2bd7b29f4a18963aae12e8c63b458bd3c1ad98734fc4a7370dcff1a7fb448e0c4fabe6d473f4813c3a61bbbc69244bde1d6763e53d05
+  checksum: 10c0/45f1639a03561bb601a84a367c1abf8f4aa3f2b83a76ab018acf484cfca46149c06d8a999072c72aac71a8575d98bdf1972545f95b4ebbddd390358021541304
   languageName: node
   linkType: hard
 
-"ra-i18n-polyglot@npm:^4.16.11":
-  version: 4.16.11
-  resolution: "ra-i18n-polyglot@npm:4.16.11"
+"ra-i18n-polyglot@npm:^4.16.12":
+  version: 4.16.12
+  resolution: "ra-i18n-polyglot@npm:4.16.12"
   dependencies:
     node-polyglot: "npm:^2.2.2"
-    ra-core: "npm:^4.16.11"
-  checksum: 10c0/d3021e45c375d6e80b9da4f06235f8dbd48db1dfa7dd3bd41d63d0e62c77230b25527bbd3b33f3e0a8e1459219090897fc0c6522bb6c4b81b8435e98e221d34c
+    ra-core: "npm:^4.16.12"
+  checksum: 10c0/12aab0a135b6851d38f6a39a2959a088d6e46201d12fb606d964a74458f57a330db5ce5539a3f91c167d33be849724adb89c5dd6e952e2bc70dd56c22199f7dd
   languageName: node
   linkType: hard
 
-"ra-input-rich-text@npm:^4.16.11":
-  version: 4.16.11
-  resolution: "ra-input-rich-text@npm:4.16.11"
+"ra-input-rich-text@npm:^4.16.12":
+  version: 4.16.12
+  resolution: "ra-input-rich-text@npm:4.16.12"
   dependencies:
     "@tiptap/core": "npm:^2.0.3"
     "@tiptap/extension-color": "npm:^2.0.3"
@@ -10761,31 +10735,31 @@ __metadata:
     ra-ui-materialui: ^4.0.0
     react: ^16.9.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/84d192301d13e8a80f867552a584472ed65b51b774fbfa34a167da7ac77a5b28c2c8ba44446290d8d03ba3a0f6779913aa2d9cf60ee127e65669c2d5fd0c031f
+  checksum: 10c0/2b293c643f5e68c3a8478c9877ea83f7e4d69789d82388c493c921fce1ff8809d522231da5a75572357dbf2068106237efa448b728c89cf5871f111e8cea5686
   languageName: node
   linkType: hard
 
-"ra-language-english@npm:^4.16.11":
-  version: 4.16.11
-  resolution: "ra-language-english@npm:4.16.11"
+"ra-language-english@npm:^4.16.12":
+  version: 4.16.12
+  resolution: "ra-language-english@npm:4.16.12"
   dependencies:
-    ra-core: "npm:^4.16.11"
-  checksum: 10c0/91b5b99f8531527ae92edae1525fac61cd61ee035f71190829de09a27aec272b16504a0b460c8a8bc56d4a118f789e15c32eca94768c9e0400bb6cc53927aa13
+    ra-core: "npm:^4.16.12"
+  checksum: 10c0/312d6099e18b971d933cc4483a6213f7a31e360b80d74fa212195e67e25b6cf26968359db66521155b17ce5d381dbd3dc399221f2ba590ef04930bd5d34efcc9
   languageName: node
   linkType: hard
 
-"ra-language-french@npm:^4.16.11":
-  version: 4.16.11
-  resolution: "ra-language-french@npm:4.16.11"
+"ra-language-french@npm:^4.16.12":
+  version: 4.16.12
+  resolution: "ra-language-french@npm:4.16.12"
   dependencies:
-    ra-core: "npm:^4.16.11"
-  checksum: 10c0/33658b101375c7691f6be66c9fdd76b70ff3489f7683053d60d2fdedd1d6ed83558575d18b9aaf1fab796ad1eebe0c8d1c253984a162ccffd9a19b3538e0b7eb
+    ra-core: "npm:^4.16.12"
+  checksum: 10c0/83341c383179790835aeb61accbd2db56728509793ee01b2fc47049570c4e9af63576e7915965d6073e288af0084f4e4e31986fb3d59854845cac8356243c551
   languageName: node
   linkType: hard
 
-"ra-ui-materialui@npm:^4.16.11":
-  version: 4.16.11
-  resolution: "ra-ui-materialui@npm:4.16.11"
+"ra-ui-materialui@npm:^4.16.12":
+  version: 4.16.12
+  resolution: "ra-ui-materialui@npm:4.16.12"
   dependencies:
     autosuggest-highlight: "npm:^3.1.1"
     clsx: "npm:^1.1.1"
@@ -10811,7 +10785,7 @@ __metadata:
     react-is: ^16.9.0 || ^17.0.0 || ^18.0.0
     react-router: ^6.1.0
     react-router-dom: ^6.1.0
-  checksum: 10c0/546493b6f514d2407d2dfb6d7015c65430f558cd448ee87d06f370e964029fc101f7d2e3401dcf0a860f815e3126ec5c5ebc0f22c479256ac483ba1daf58c06a
+  checksum: 10c0/64ebbbba405b061ee2336581eee104753b297630d2fe99706443896759b99edbaf97fadfbfb7e7c82c93a94995f4580d89bc1137c973526e929035386b7a4403
   languageName: node
   linkType: hard
 
@@ -10824,26 +10798,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-admin@npm:^4.16.11":
-  version: 4.16.11
-  resolution: "react-admin@npm:4.16.11"
+"react-admin@npm:^4.16.12":
+  version: 4.16.12
+  resolution: "react-admin@npm:4.16.12"
   dependencies:
     "@emotion/react": "npm:^11.4.1"
     "@emotion/styled": "npm:^11.3.0"
     "@mui/icons-material": "npm:^5.0.1"
     "@mui/material": "npm:^5.0.2"
     history: "npm:^5.1.0"
-    ra-core: "npm:^4.16.11"
-    ra-i18n-polyglot: "npm:^4.16.11"
-    ra-language-english: "npm:^4.16.11"
-    ra-ui-materialui: "npm:^4.16.11"
+    ra-core: "npm:^4.16.12"
+    ra-i18n-polyglot: "npm:^4.16.12"
+    ra-language-english: "npm:^4.16.12"
+    ra-ui-materialui: "npm:^4.16.12"
     react-hook-form: "npm:^7.43.9"
     react-router: "npm:^6.1.0"
     react-router-dom: "npm:^6.1.0"
   peerDependencies:
     react: ^16.9.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/c03fe0d5b14ce8bb2868596a8c90717cc219ec502de625010f97d44c7a988c33dd1afe8b33c61dc07c84c2c564b34df9d007e587f642ac110e37af88e61ec87b
+  checksum: 10c0/2745caa49a6de062013f56dd53cfad7ed72dec3cc5a3aab62433a3d6550e4a3dbb91107b5a9a90cc01373b3e993e831b8116bb1dce6b46996c946720f20716a9
   languageName: node
   linkType: hard
 
@@ -11284,7 +11258,7 @@ __metadata:
     "@babel/core": "npm:^7.23.9"
     "@babel/preset-env": "npm:^7.23.9"
     "@luigi-project/client": "npm:^2.9.0"
-    "@luigi-project/container": "npm:^1.1.0"
+    "@luigi-project/container": "npm:^1.2.0-rc1"
     "@luigi-project/core": "npm:^2.9.0"
     "@sap-theming/theming-base-content": "npm:^11.12.0"
     "@testing-library/jest-dom": "npm:^5.17.0"
@@ -11331,9 +11305,9 @@ __metadata:
     source-map-loader: "npm:^3.0.0"
     style-loader: "npm:^3.3.1"
     tailwindcss: "npm:^3.0.2"
-    vite: "npm:^5.1.3"
+    vite: "npm:^5.1.6"
     vite-plugin-simple-html: "npm:^0.1.2"
-    vite-tsconfig-paths: "npm:^4.3.1"
+    vite-tsconfig-paths: "npm:^4.3.2"
     web-vitals: "npm:^2.1.4"
   languageName: unknown
   linkType: soft
@@ -11348,18 +11322,18 @@ __metadata:
     "@hookform/devtools": "npm:^4.0.2"
     "@mui/icons-material": "npm:^5.0.1"
     "@mui/material": "npm:^5.0.2"
-    "@vitejs/plugin-react": "npm:^2.2.0"
+    "@vitejs/plugin-react": "npm:^4.2.1"
     jsonexport: "npm:^3.2.0"
     lodash: "npm:~4.17.5"
     prop-types: "npm:^15.7.2"
     proxy-polyfill: "npm:^0.3.0"
-    ra-data-fakerest: "npm:^4.16.11"
-    ra-i18n-polyglot: "npm:^4.16.11"
-    ra-input-rich-text: "npm:^4.16.11"
-    ra-language-english: "npm:^4.16.11"
-    ra-language-french: "npm:^4.16.11"
+    ra-data-fakerest: "npm:^4.16.12"
+    ra-i18n-polyglot: "npm:^4.16.12"
+    ra-input-rich-text: "npm:^4.16.12"
+    ra-language-english: "npm:^4.16.12"
+    ra-language-french: "npm:^4.16.12"
     react: "npm:^17.0.0"
-    react-admin: "npm:^4.16.11"
+    react-admin: "npm:^4.16.12"
     react-app-polyfill: "npm:^1.0.4"
     react-dom: "npm:^17.0.0"
     react-hook-form: "npm:^7.43.9"
@@ -11367,7 +11341,7 @@ __metadata:
     react-router: "npm:^6.1.0"
     react-router-dom: "npm:^6.1.0"
     typescript: "npm:^5.1.3"
-    vite: "npm:^5.1.3"
+    vite: "npm:^5.1.6"
   languageName: unknown
   linkType: soft
 
@@ -11378,7 +11352,7 @@ __metadata:
     "@babel/core": "npm:^7.23.9"
     "@babel/preset-env": "npm:^7.23.9"
     "@luigi-project/client": "npm:^2.9.0"
-    "@luigi-project/container": "npm:^1.1.0"
+    "@luigi-project/container": "npm:^1.2.0-rc1"
     "@luigi-project/core": "npm:^2.9.0"
     "@sap-theming/theming-base-content": "npm:^11.12.0"
     "@testing-library/jest-dom": "npm:^5.17.0"
@@ -11424,9 +11398,9 @@ __metadata:
     source-map-loader: "npm:^3.0.0"
     style-loader: "npm:^3.3.1"
     tailwindcss: "npm:^3.0.2"
-    vite: "npm:^5.1.3"
+    vite: "npm:^5.1.6"
     vite-plugin-simple-html: "npm:^0.1.2"
-    vite-tsconfig-paths: "npm:^4.3.1"
+    vite-tsconfig-paths: "npm:^4.3.2"
     web-vitals: "npm:^2.1.4"
   languageName: unknown
   linkType: soft
@@ -11998,13 +11972,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sourcemap-codec@npm:^1.4.8":
-  version: 1.4.8
-  resolution: "sourcemap-codec@npm:1.4.8"
-  checksum: 10c0/f099279fdaae070ff156df7414bbe39aad69cdd615454947ed3e19136bfdfcb4544952685ee73f56e17038f4578091e12b17b283ed8ac013882916594d95b9e6
-  languageName: node
-  linkType: hard
-
 "spawn-command@npm:0.0.2":
   version: 0.0.2
   resolution: "spawn-command@npm:0.0.2"
@@ -12540,9 +12507,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfck@npm:^3.0.1":
-  version: 3.0.2
-  resolution: "tsconfck@npm:3.0.2"
+"tsconfck@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "tsconfck@npm:3.0.3"
   peerDependencies:
     typescript: ^5.0.0
   peerDependenciesMeta:
@@ -12550,7 +12517,7 @@ __metadata:
       optional: true
   bin:
     tsconfck: bin/tsconfck.js
-  checksum: 10c0/8489244d9e8c0ed4e32b3f5b26151e2ea4204d2c8dd5ed770a8d892b4fba3ba415f4cd3ae9bed4f245d4426de0477bc11fbbce287ba1adfaa1fa0d4e7bae252e
+  checksum: 10c0/d45009230c4caa5fc765bdded96f3b8703a7cdd44a1d63024914b0fb1c4dabf9e94d28cc9f9edccaef9baa7b99adc963502d34943d82fcb07b92e1161ee03c56
   languageName: node
   linkType: hard
 
@@ -12913,25 +12880,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-tsconfig-paths@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "vite-tsconfig-paths@npm:4.3.1"
+"vite-tsconfig-paths@npm:^4.3.2":
+  version: 4.3.2
+  resolution: "vite-tsconfig-paths@npm:4.3.2"
   dependencies:
     debug: "npm:^4.1.1"
     globrex: "npm:^0.1.2"
-    tsconfck: "npm:^3.0.1"
+    tsconfck: "npm:^3.0.3"
   peerDependencies:
     vite: "*"
   peerDependenciesMeta:
     vite:
       optional: true
-  checksum: 10c0/47d95952ebcf99e25aa35b6cf5522ae7d1314386d4baa84b6121128425c6337d43330ec8365070b27e1745278cbaad40728016f9dfde96b3d53f6113d30e1872
+  checksum: 10c0/f390ac1d1c3992fc5ac50f9274c1090f8b55ab34a89ea88893db9a6924a3b26c9f64bc1163615150ad100749db73b6b2cf1d57f6cd60df6e762ceb5b8ad30024
   languageName: node
   linkType: hard
 
-"vite@npm:^5.1.3":
-  version: 5.1.3
-  resolution: "vite@npm:5.1.3"
+"vite@npm:^5.1.6":
+  version: 5.1.6
+  resolution: "vite@npm:5.1.6"
   dependencies:
     esbuild: "npm:^0.19.3"
     fsevents: "npm:~2.3.3"
@@ -12965,7 +12932,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/d3b19607d736de60b660f7daf4c0f86589edcbbc1fcb09f8aa36630f99518cc8a063062bb952899b8ccaed62f1314fac22c1df492dd035de3c65998ab27e2d2a
+  checksum: 10c0/b935527544741d9313143a77f811d97b8b094757e42f9c02b7aca6294a4912674dbad5379e4759629b6ba895c93b5020cc7594f74b37846715336837fdce850a
   languageName: node
   linkType: hard
 
