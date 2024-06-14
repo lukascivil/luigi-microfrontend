@@ -2884,24 +2884,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@luigi-project/client@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "@luigi-project/client@npm:2.9.0"
-  checksum: 10c0/784a6b5fb8cd3db61e6b4e3e90ba71d634ebfd4eb410740158cc9a609c2e566c7cf0d00c3a5a71a8fecc739f78cf8c54abed5b643985ea1e74b051dcfd1a64f6
+"@luigi-project/client@npm:^2.13.0":
+  version: 2.13.0
+  resolution: "@luigi-project/client@npm:2.13.0"
+  checksum: 10c0/bd8698b5473ccebe6e3f222f81f051125ff4c8ef2ac7b231e92c3dd20f9c31390670da88400bbe1ad1bb8a320a1cec7b052c215ad6d48cf51fe6e13eee32058f
   languageName: node
   linkType: hard
 
-"@luigi-project/container@npm:^1.2.0-rc1":
-  version: 1.2.0-rc1
-  resolution: "@luigi-project/container@npm:1.2.0-rc1"
-  checksum: 10c0/ab978914e4f053c6533c61f3d380c0b191da9c1298f204c5dcbd99b7ae65deb18bd9c3d6f2ebbbc356a2c6cdceba2ee3dd5eaaa81008205bd29b790d67263704
+"@luigi-project/container@npm:^1.2.0-rc3":
+  version: 1.2.0-rc3
+  resolution: "@luigi-project/container@npm:1.2.0-rc3"
+  checksum: 10c0/fe9196165bbba0fa6ff26dd748d77001e0a2fd5284f6cf73aa565111abedb06afbcf2099d20d36677659d44b4e794ce5b7f3189a2ba6f65c1a370766d28038e1
   languageName: node
   linkType: hard
 
-"@luigi-project/core@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "@luigi-project/core@npm:2.9.0"
-  checksum: 10c0/c742cd42d47704c636f4c85039db7b6172b1dbe2918825d18f9e404e0cb4fcbef68e932068329648da91257deacadd8821f9755d5f14c355ad32d3f3704b7059
+"@luigi-project/core@npm:^2.13.0":
+  version: 2.13.0
+  resolution: "@luigi-project/core@npm:2.13.0"
+  checksum: 10c0/63e9ca7831b6a90419f9a3185732a6166840581333f9454c2c8028861589cd1b44667b310938ed5dc08f8d0d717b7ea740df9293cbc53d7e8f86582bdda5c6cf
   languageName: node
   linkType: hard
 
@@ -3314,10 +3314,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sap-theming/theming-base-content@npm:^11.12.0":
-  version: 11.12.0
-  resolution: "@sap-theming/theming-base-content@npm:11.12.0"
-  checksum: 10c0/883343575b93e956f1511dfc78503003ec185c6376f67f07ce320cecc2a0422d326b23f7b9ff2cc2fb70b2cbb15b459959082a0b65917b3b221cd17b8ba29ea5
+"@sap-theming/theming-base-content@npm:^11.16.1":
+  version: 11.16.1
+  resolution: "@sap-theming/theming-base-content@npm:11.16.1"
+  checksum: 10c0/f44d7def2024624cba6b71184fdbfe32a2eff55ae359ec7d28077d3d489325933467e8ffbd9c7bb0434adf90a96e57e855e3355b02d4d24bc9ac8db9b961a740
   languageName: node
   linkType: hard
 
@@ -7291,10 +7291,10 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.23.9"
     "@babel/preset-env": "npm:^7.23.9"
-    "@luigi-project/client": "npm:^2.9.0"
-    "@luigi-project/container": "npm:^1.2.0-rc1"
-    "@luigi-project/core": "npm:^2.9.0"
-    "@sap-theming/theming-base-content": "npm:^11.12.0"
+    "@luigi-project/client": "npm:^2.13.0"
+    "@luigi-project/container": "npm:^1.2.0-rc3"
+    "@luigi-project/core": "npm:^2.13.0"
+    "@sap-theming/theming-base-content": "npm:^11.16.1"
     "@testing-library/jest-dom": "npm:^5.17.0"
     "@testing-library/react": "npm:^13.4.0"
     "@testing-library/user-event": "npm:^13.5.0"
@@ -9094,10 +9094,10 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.23.9"
     "@babel/preset-env": "npm:^7.23.9"
-    "@luigi-project/client": "npm:^2.9.0"
-    "@luigi-project/container": "npm:^1.2.0-rc1"
-    "@luigi-project/core": "npm:^2.9.0"
-    "@sap-theming/theming-base-content": "npm:^11.12.0"
+    "@luigi-project/client": "npm:^2.13.0"
+    "@luigi-project/container": "npm:^1.2.0-rc3"
+    "@luigi-project/core": "npm:^2.13.0"
+    "@sap-theming/theming-base-content": "npm:^11.16.1"
     "@testing-library/jest-dom": "npm:^5.17.0"
     "@testing-library/react": "npm:^13.4.0"
     "@testing-library/user-event": "npm:^13.5.0"
@@ -11553,10 +11553,10 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.23.9"
     "@babel/preset-env": "npm:^7.23.9"
-    "@luigi-project/client": "npm:^2.9.0"
-    "@luigi-project/container": "npm:^1.2.0-rc1"
-    "@luigi-project/core": "npm:^2.9.0"
-    "@sap-theming/theming-base-content": "npm:^11.12.0"
+    "@luigi-project/client": "npm:^2.13.0"
+    "@luigi-project/container": "npm:^1.2.0-rc3"
+    "@luigi-project/core": "npm:^2.13.0"
+    "@sap-theming/theming-base-content": "npm:^11.16.1"
     "@testing-library/jest-dom": "npm:^5.17.0"
     "@testing-library/react": "npm:^13.4.0"
     "@testing-library/user-event": "npm:^13.5.0"
@@ -11647,10 +11647,10 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.23.9"
     "@babel/preset-env": "npm:^7.23.9"
-    "@luigi-project/client": "npm:^2.9.0"
-    "@luigi-project/container": "npm:^1.2.0-rc1"
-    "@luigi-project/core": "npm:^2.9.0"
-    "@sap-theming/theming-base-content": "npm:^11.12.0"
+    "@luigi-project/client": "npm:^2.13.0"
+    "@luigi-project/container": "npm:^1.2.0-rc3"
+    "@luigi-project/core": "npm:^2.13.0"
+    "@sap-theming/theming-base-content": "npm:^11.16.1"
     "@testing-library/jest-dom": "npm:^5.17.0"
     "@testing-library/react": "npm:^13.4.0"
     "@testing-library/user-event": "npm:^13.5.0"
