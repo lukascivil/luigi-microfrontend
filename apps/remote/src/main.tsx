@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./views/remote-home";
 import Sample1 from "./views/sample1";
 import Sample2 from "./views/sample2";
@@ -8,8 +8,9 @@ import { addInitListener } from "@luigi-project/client";
 import "./index.css";
 
 class App extends Component {
-  constructor(props) {
+  constructor(props: any) {
     super(props);
+
     addInitListener((context) => {
       console.log("main.jsx Luigi Client initialized.", context);
     });
@@ -20,15 +21,17 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter basename={`remoteMFE`}>
-        <Route path="/home" component={Home} />
-        <Route path="/sample1" component={Sample1} />
-        <Route path="/sample2" component={Sample2} />
+        <Routes>
+          <Route path="/home" Component={Home} />
+          <Route path="/sample1" Component={Sample1} />
+          <Route path="/sample2" Component={Sample2} />
+        </Routes>
       </BrowserRouter>
     );
   }
 }
 
-createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
