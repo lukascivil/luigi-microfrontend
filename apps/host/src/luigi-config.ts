@@ -19,7 +19,7 @@ Luigi.setConfig({
           },
           {
             pathSegment: "remote2",
-            label: "Remote 3003",
+            label: "Remote 2 3003",
             icon: "home",
             viewUrl: "http://localhost:3003",
             loadingIndicator: {
